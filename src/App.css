@@ -1,0 +1,361 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@media only screen and (max-width: 930px) {
+
+  .bg-img {
+    height: 450px !important;
+    width: 400px !important;
+    margin-top: 10%;
+  }
+
+  .bg-img-1 {
+    height: 380px !important;
+    width: 380px !important;
+    margin-left: 3% !important;
+  }
+
+  .Interior {
+    text-align: center;
+  }
+
+  .Interior-para {
+    text-align: center;
+  }
+
+  .Interior-button {
+    margin-left: 30% !important;
+  }
+
+  .creative-team {
+    text-align: center;
+  }
+
+  .creative-team-para {
+    text-align: center;
+  }
+
+  .creative-team-button {
+    position: relative;
+    left: 170px;
+  }
+
+  .all-about {
+    text-align: center;
+    margin-right: 20%;
+  }
+
+  .all-about-para {
+    text-align: center;
+    margin-right: 20%;
+  }
+
+  .modern {
+    text-align: center;
+  }
+
+  .modern-para {
+    text-align: center;
+  }
+
+  .all-about-button {
+    position: relative;
+    left: 100px;
+  }
+
+  .button {
+    position: relative;
+    top: 100px !important;
+    right: 200px !important;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+
+  .Interior-button {
+    width: 150px !important;
+
+  }
+}
+
+@media only screen and (max-width: 400px) {
+
+  .creative-team-button {
+    width: 150px !important;
+    position: relative;
+    left: 80px;
+  }
+
+  .all-about-button {
+    position: relative;
+    left: 50px;
+  }
+
+}
+
+@media only screen and (max-width: 734px) {
+
+  .team {
+    position: absolute;
+    top: 400px !important;
+    left: 50px !important;
+
+  }
+}
+
+@media only screen and (max-width: 1445px) {
+  .part-5 {
+    height: 1200px;
+    position: relative;
+  }
+
+  .img2 {
+    position: absolute;
+    top: 650px;
+    left: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .part-5 {
+    position: relative;
+  }
+
+  .book-img {
+    position: absolute;
+    height: 280px;
+    width: 280px;
+    left: 40px !important;
+
+  }
+
+  .book-button {
+    position: absolute;
+    left: 180px !important;
+    top: 120px !important;
+  }
+
+  .tablee {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    left: 10px !important;
+    top: 240px !important;
+  }
+
+  .table-button {
+    position: absolute;
+    left: 140px !important;
+    top: 350px !important;
+  }
+
+  .modern-para {
+    text-align: center;
+    margin-left: 10%;
+  }
+
+  .modern {
+    text-align: center;
+    margin-left: 10%;
+  }
+
+
+  .img2 {
+    position: absolute;
+    top: 740px;
+    left: 10px;
+  }
+
+}
+
+
+@media only screen and (max-width: 734px) {
+
+  .part-5 {
+    position: relative;
+    top: 200px;
+
+  }
+
+  .part4 {
+    position: absolute;
+    top: -70px
+  }
+
+  /* .part-4 {
+    height: 1200px !important;
+  } */
+}
+
+
+@media only screen and (max-width: 740px) {
+  .part-6 {
+    position: relative;
+    top: 200px !important;
+  }
+}
+
+
+@media only screen and (max-width: 960px) {
+  .imges {
+    margin-top: 10%;
+    margin-left: -8%;
+  }
+
+  .imges-1 {
+    height: 300px;
+    width: 380px;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+
+
+  .imges-1 {
+    height: 200px;
+    width: 280px;
+  }
+}
+
+
+@media only screen and (max-width: 750px) {
+  .part-7 {
+    position: relative;
+    top: 200px;
+    text-align: center;
+  }
+
+  .Projects-para {
+    width: 40%;
+    margin-left: 28%;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .Projects-img {
+    height: 250px;
+    width: 250px;
+  }
+
+  .img-main {
+    margin-left: 18%;
+  }
+
+  .proects-img2 {
+    margin-left: 30%;
+    height: 600px;
+    width: 400px;
+  }
+
+  .proects-img3 {
+    margin-left: 30%;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  .part-8 {
+    position: relative;
+    /* top: 200px !important; */
+  }
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .button {
+    position: relative;
+    top: 100px !important;
+    left: 380px !important;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .last {
+   flex-direction: column;
+   align-items: center;
+  }
+}
+
+
+@media only screen and (max-width: 555px) {
+  .button {
+    position: relative;
+    top: 180px !important;
+    left: 100px !important;
+    width: 200px !important;
+  }
+}
+
+
+@media only screen and (max-width: 970px) {
+  .button {
+    position: relative;
+    top: 100px !important;
+    left: 350px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .button {
+    position: relative;
+    top: 150px !important;
+    left: 200px !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .button {
+    position: relative;
+    top: 180px !important;
+    left: 100px !important;
+    width: 150px !important;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .headline {
+  flex-direction: column;
+  align-items: center;
+  }
+}
+
+button {
+  border: none !important;
+  font-weight: 700
+}
